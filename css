@@ -1,0 +1,65 @@
+/*em = unidade relativa ao tamanho da fonte definido para o elemento em questão
+font-variant: small-caps = muda as letras minúsculas por letras maiúsculas em menor tamanho
+:link = estado inicial do link
+:visited = link visitado
+:hover = estado do link quando o usuário passa o ponteiro do mouse sobre ele
+:active = estado do link quando o usuário clisa sobre ele
+text-decoration: none = retira o sublinhado dos links
+float: método para posicinar colunas
+margin: define as dimensões das margens de um box
+padding: define a espessura entre  contéudo e a borda*/
+
+body{
+	text-align: center;
+	background:#00FFFF; 
+	margin: 1em;
+	padding: 1em;
+	font-variant:small-caps; 
+	font-size:110%;
+	}
+h1{
+	color: #00868B; 
+	font-size:400%;
+	margin-top:2%;
+	}
+	
+img {
+    opacity: 0.7;
+    filter: alpha(opacity=70); 
+	border:none;
+	}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+#tudo{
+	width:100%;
+	min-width: 760px;
+	max-width: 950px;
+	margin: 0 auto; 
+	}
+	
+
+#nav, #nav * {
+	margin-bottom:1em;
+	padding:0;
+	}
+	
+#nav {
+	background: #00868B;
+	}
+
+#nav a{
+	display:inline; 
+	text-decoration:none; 
+	color: #00FFFF; 
+	margin:6px;
+	padding: 0.25em 0.5em 0.25em 0.75em;
+	}
+	
+#nav a:hover{
+	color: #00868B; 
+	background:#00FFFF;
+	}
